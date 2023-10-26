@@ -1,0 +1,10 @@
+docker build --tag python-flask .
+docker images
+docker run or docker run -d -p 5000:5000 python-flask
+
+# It's ok now
+
+# for delete
+docker ps
+docker stop <container-name>
+docker container prune
