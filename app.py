@@ -4,9 +4,6 @@ from utils import base64_to_pil, np_to_base64
 from flask import Flask, redirect, request, render_template, jsonify, json
 
 import easyocr
-# reader = easyocr.Reader(['ch_sim','en']) # this needs to run only once to load the model into memory
-# result = reader.readtext('chinese.jpg')
-
 
 
 app = Flask(__name__)
@@ -42,3 +39,4 @@ def predict():
 
 if __name__ == '__main__': 
     app.run(debug=True)
+    

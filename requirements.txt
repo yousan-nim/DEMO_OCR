@@ -2,3 +2,4 @@ flask
 easyocr
 numpy
 matplotlib
+gunicorn
